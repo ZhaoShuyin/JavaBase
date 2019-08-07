@@ -1,4 +1,0 @@
-参考 https://github.com/simple-android-framework/android_design_patterns_analysis
-     http://c.biancheng.net/design_pattern/
-地址 git@github.com:ZhaoShuyin/JavaBase.git
-    git@gitee.com:zhaoshuyin/JavaBase.git
