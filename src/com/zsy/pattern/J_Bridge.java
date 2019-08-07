@@ -55,6 +55,7 @@ class DP1 {
     public void draw_1_Rantanle() {
         System.out.println("DP1画矩形");
     }
+
     public void draw_1_Circle() {
         System.out.println("DP1画圆形");
     }
@@ -65,6 +66,7 @@ class DP2 {
     public void drawRantanle() {
         System.out.println("DP2画矩形");
     }
+
     public void drawCircle() {
         System.out.println("DP2画圆形");
     }

@@ -26,8 +26,6 @@ public class K_Prototype {
 
         doc1.showDocument();
         System.out.println("doc1==" + doc1.toString() + " doc2" + doc2.toString());
-
-
     }
 }
 
