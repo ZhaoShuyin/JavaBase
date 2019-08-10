@@ -1,7 +1,8 @@
-# Frist
+# JavaBase (Java基本语法及设计模式)
 
 #### 项目介绍
-content
+github 地址  git@github.com:ZhaoShuyin/JavaBase.git
+gitee  地址  git@gitee.com:zhaoshuyin/JavaBase.git
 
 #### 软件架构
 软件架构说明

@@ -1,4 +1,4 @@
-package com.zsy.properties;
+package com.zsy.java.properties;
 
 import java.io.FileReader;
 import java.io.FileWriter;
