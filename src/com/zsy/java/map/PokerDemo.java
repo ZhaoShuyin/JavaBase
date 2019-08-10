@@ -73,8 +73,6 @@ public class PokerDemo {
 	
 	/**
 	 * 看牌的方法
-	 * @param string
-	 * @param zhourunfaList
 	 */
 	private static void lookPoker(String player, ArrayList<String> list) {
 		System.out.print(player + "的牌是: ");
