@@ -5,7 +5,7 @@ github 地址  git@github.com:ZhaoShuyin/JavaBase.git
 gitee  地址  git@gitee.com:zhaoshuyin/JavaBase.git
 
 #### 软件架构
-软件架构说明
+软件架构说明https://www.cnblogs.com/imxiangbei/articles/8618396.html
 
 
 #### 安装教程

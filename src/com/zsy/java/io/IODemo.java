@@ -1,5 +1,7 @@
 package com.zsy.java.io;
 
+import com.zsy.java.io.sample.Student;
+
 import java.io.*;
 import java.util.Random;
 
@@ -14,6 +16,7 @@ import java.util.Random;
  * .            }
  * .        }
  * .       ByteArrayInputStream:        //内存操作流,(使用内存为暂存区)关闭此流无效
+ * .       ObjectInputStream:           //对象输入流(操作对象)(InputStream)
  * .   }
  * .   OutputStream{                     //字节输出流
  * .        FileOutputStream{            //<直接>写入
@@ -24,6 +27,7 @@ import java.util.Random;
  * .        PrintStream:                 //<直接>显示流
  * .        }
  * .       ByteArrayOutputStream:       //内存操作流,(使用内存为暂存区)并且关闭此流无效
+* .       ObjectOutputStream:           //对象输入流(操作对象)(OutputStream)
  * .   }
  * .
  * .
@@ -57,7 +61,29 @@ public class IODemo {
         //dataStream();          //数据流
         //ByteArrayTest();       //内存操作流
         //printTest();           //方便快捷输出数据
-        randomStreatTest();      //随机访问流
+        //randomStreatTest();      //随机访问流
+        //objectTest();            //对象操作流
+    }
+
+    /**
+     * 对象操作流
+     */
+    private static void objectTest() {
+        try{
+        FileOutputStream fos = new FileOutputStream("files/object.txt") ;
+        ObjectOutputStream oos = new ObjectOutputStream(fos) ;
+        Student sIn = new Student("张三" , 23) ;
+        oos.writeObject(sIn) ;
+        fos.close() ;
+        FileInputStream fis = new FileInputStream("files/object.txt") ;
+        ObjectInputStream ois = new ObjectInputStream(fis) ;
+        Student sOut = (Student)ois.readObject() ;
+        System.out.println(sOut.getName() + "---" + sOut.getAge());
+        ois.close() ;
+        fis.close() ;
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     /**

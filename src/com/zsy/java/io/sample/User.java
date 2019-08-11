@@ -1,4 +1,4 @@
-package com.zsy.java.io;
+package com.zsy.java.io.sample;
 
 /**
  * Title 随机访问流使用Bean
