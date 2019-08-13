@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.a_singleton;
 
 import java.util.HashMap;
 import java.util.Map;

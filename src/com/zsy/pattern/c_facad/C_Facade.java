@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.c_facad;
 
 /**
  * Title: 设计模式之外观模式
@@ -18,10 +18,15 @@ public class C_Facade {
     }
 }
 
-
+/**
+ * 外观模式 (为多个复杂的子系统提供一个一致的接口，使这些子系统更加容易被访问)
+ */
 class TvController {
+    //电源功能
     private PowerSystem mPowerSystem = new PowerSystem();
+    //音量功能
     private VoiceSystem mVoiceSystem = new VoiceSystem();
+    //频道功能
     private ChannelSystem mChannelSystem = new ChannelSystem();
 
     public void powerOn() {

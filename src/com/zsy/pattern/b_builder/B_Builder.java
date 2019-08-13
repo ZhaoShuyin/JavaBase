@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.b_builder;
 
 /**
  * Title: 设计模式2: 构建者(Builder)模式
@@ -13,7 +13,7 @@ public class B_Builder {
         Builder builder = new PCBuilder();
 
         Director pcDirector = new Director(builder);                      //通过Director设置Builder默认参数
-        pcDirector.construct(4, 2, "Linux OScent 6.8");   // 封装构建过程, 4核, 内存2GB, Linux系统
+        pcDirector.construct(4, 2, "Linux OScent 6.8");     // 封装构建过程, 4核, 内存2GB, Linux系统
 
         builder.buildRAM(8);                                          //builder实现参数修改
         Computer computer = builder.create();                             // 构建电脑, 输出相关信息

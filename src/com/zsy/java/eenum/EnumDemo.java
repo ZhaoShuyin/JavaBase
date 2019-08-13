@@ -84,12 +84,12 @@ public class EnumDemo {
     /**
      * 枚举中常见的方法:
      *
-     * 		int ordinal()			: 获取枚举项对应的编号 , 这个编号从0开始
-     int compareTo(E o)		: 返回的是对应的编号的差值
-     String name()			: 获取的是枚举项对应的名称
-     String toString()		: 返回的是枚举项的名称
-     static <T> T valueOf(Class<T> type,String name); 在指定的枚举中获取指定名称的枚举项
-     static <T> T[] values() :		或所有的枚举项
+     * 	int ordinal()			: 获取枚举项对应的编号 , 这个编号从0开始
+     *  int compareTo(E o)		: 返回的是对应的编号的差值
+     *  String name()			: 获取的是枚举项对应的名称
+     *  String toString()		: 返回的是枚举项的名称
+     *  static <T> T valueOf(Class<T> type,String name); 在指定的枚举中获取指定名称的枚举项
+     *  static <T> T[] values() :		或所有的枚举项
      */
     public static void directionTest(){
         Direction back = Direction.BACK ;
