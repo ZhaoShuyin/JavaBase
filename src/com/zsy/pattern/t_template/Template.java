@@ -1,4 +1,4 @@
-package com.zsy.pattern.d_template;
+package com.zsy.pattern.t_template;
 
 /**
  * Title: 设计模式之模板模式
