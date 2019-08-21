@@ -1,4 +1,4 @@
-package com.zsy.pattern.e_strategy;
+package com.zsy.pattern.s_strategy;
 
 /**
  * Title: 设计模式之策略模式
@@ -8,7 +8,7 @@ package com.zsy.pattern.e_strategy;
  * @author Zsy
  * @date 2019/8/1 17:06
  */
-public class E_Strategy {
+public class S_Strategy {
     public static void main(String[] args) {
         double paramA = 2;
         double paramB = 2;

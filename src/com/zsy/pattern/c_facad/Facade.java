@@ -8,7 +8,7 @@ package com.zsy.pattern.c_facad;
  * @author Zsy
  * @date 2019/8/1 10:25
  */
-public class C_Facade {
+public class Facade {
     public static void main(String[] args) {
         TvController tvController = new TvController();
         tvController.powerOn();

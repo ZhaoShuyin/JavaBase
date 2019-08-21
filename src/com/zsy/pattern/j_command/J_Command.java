@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.j_command;
 
 /**
  * Title: 设计模式之命令模式
@@ -6,7 +6,7 @@ package com.zsy.pattern;
  * @author Zsy
  * @date 2019/8/2 11:15
  */
-public class I_Command {
+public class J_Command {
     public static void main(String[] args) {
         ClientRole client = new ClientRole();
         client.assembleAction();

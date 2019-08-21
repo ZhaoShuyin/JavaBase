@@ -1,4 +1,4 @@
-package com.zsy.pattern.e_strategy;
+package com.zsy.pattern.s_strategy;
 
 public class StrategyPattern {
     public static void main(String[] args) {

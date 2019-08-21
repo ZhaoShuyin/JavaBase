@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.k_prototype;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  * @author Zsy
  * @date 2019/8/2 11:16
  */
-public class K_Prototype {
+public class Prototype {
     public static void main(String[] args) {
         WordDocument doc1 = new WordDocument(); //构造函数
         doc1.setText("文档1");            //

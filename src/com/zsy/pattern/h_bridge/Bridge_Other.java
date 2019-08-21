@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.h_bridge;
 
 /**
  * Title: 设计模式之桥接模式
@@ -7,27 +7,27 @@ package com.zsy.pattern;
  * @author Zsy
  * @date 2019/8/7 13:12
  */
-public class J_Bridge_Other {
+public class Bridge_Other {
     public static void main(String[] args) {
-        Implementor imple = new ConcreteImplementorA();
-        Abstraction abs = new RefinedAbstraction(imple);
+        Implementor imple = new ConeImplementor();
+        Abstraction abs = new RefAbstraction(imple);
         abs.Operation();
     }
 }
 
-//实现化角色
+//角色接口
 interface Implementor {
     public void OperationImpl();
 }
 
-//具体实现化角色
-class ConcreteImplementorA implements Implementor {
+//具体操作类
+class ConeImplementor implements Implementor {
     public void OperationImpl() {
-        System.out.println("具体实现化(Concrete Implementor)角色被访问");
+        System.out.println("具体实现类-->操作");
     }
 }
 
-//抽象化角色
+//抽象角色类
 abstract class Abstraction {
     protected Implementor imple;
 
@@ -38,14 +38,14 @@ abstract class Abstraction {
     public abstract void Operation();
 }
 
-//扩展抽象化角色
-class RefinedAbstraction extends Abstraction {
-    protected RefinedAbstraction(Implementor imple) {
+//扩展抽象角色
+class RefAbstraction extends Abstraction {
+    protected RefAbstraction(Implementor imple) {
         super(imple);
     }
 
     public void Operation() {
-        System.out.println("扩展抽象化(Refined Abstraction)角色被访问");
+        System.out.println("实现角色类 --> 操作");
         imple.OperationImpl();
     }
 }

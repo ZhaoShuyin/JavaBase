@@ -8,7 +8,7 @@ package com.zsy.pattern.d_template;
  * @author Zsy
  * @date 2019/8/1 11:06
  */
-public class D_Template {
+public class Template {
     public static void main(String[] args) {
         AbstractComputer comp = new CoderComputer();
         comp.startUp();

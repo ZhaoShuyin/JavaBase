@@ -1,4 +1,4 @@
-package com.zsy.pattern;
+package com.zsy.pattern.k_prototype;
 
 import java.util.HashMap;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author Zsy
  * @date 2019/8/2 11:16
  */
-public class K_Prototype_Sample {
+public class Prototype_Sample {
     public static void main(String[] args) {
         ProtoTypeManager pm = new ProtoTypeManager();
         Shape obj1 = (Circle) pm.getShape("Circle");

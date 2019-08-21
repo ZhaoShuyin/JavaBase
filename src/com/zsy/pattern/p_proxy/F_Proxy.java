@@ -1,4 +1,4 @@
-package com.zsy.pattern.f_proxy;
+package com.zsy.pattern.p_proxy;
 
 /**
  * Title: 设计模式之代理模式
