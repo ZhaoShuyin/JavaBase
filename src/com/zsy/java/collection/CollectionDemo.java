@@ -9,7 +9,7 @@ import java.util.*;
  * .          iterator()     //迭代器
  * .          size(),isEmpty(),contains(Object o), iterator(), toArray(), toArray(Object[] a),
  * .          add(Object o),remove(Object o),containsAll(Collection c),addAll(Collection c),
- * removeAll(Collection c),retainAll(Collection c),clear()
+ * .          removeAll(Collection c),retainAll(Collection c),clear()
  * .     List{
  * .         ArrayList{             //索引在数组中搜索和读取数据(查询快)(增删整体拷贝)
  * .           clone(),             //不同
