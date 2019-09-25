@@ -3,7 +3,8 @@
 #### 项目介绍
 github 地址  git@github.com:ZhaoShuyin/JavaBase.git
 gitee  地址  git@gitee.com:zhaoshuyin/JavaBase.git
-
+IDEA破解方法
+https://blog.csdn.net/qq_42914528/article/details/89710864
 #### 软件架构
 软件架构说明https://www.cnblogs.com/imxiangbei/articles/8618396.html
 
