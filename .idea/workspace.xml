@@ -1,63 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c59171c-5e85-4dbe-8cf4-316fe52acd53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/interpreter/InterpreterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/mediator/MediatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/memento/MementoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/observer/ObserverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/state/StateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/visitor/VisitorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/行为模式.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/abfactory/AbFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/AnimalFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Instance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/创建型模式.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/adapter/ClassAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/composite/CompositeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/flyweight/FlyweightTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/结构型模式.txt" afterDir="false" />
+    <list default="true" id="8d430dfb-5829-443b-a6de-5957961c93f3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/CountDownLatchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Grammar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Test01ConcurrentLinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/java/collection/CollectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/java/collection/CollectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/a_singleton/A_Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/SingletonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/a_singleton/Singleton_Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Singleton_Other.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/b_builder/B_Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/builder/BuilderTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/c_facad/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/facad/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/d_Decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/d_Decorator/sample/IPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/IPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/d_Decorator/sample/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/d_Decorator/sample/PhoneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/PhoneA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/f_factory/Factory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/f_factory/sample/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/f_factory/sample/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/f_factory/sample/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/g_chain/G_Chain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/chain/ChainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/h_bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/bridge/Bridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/h_bridge/Bridge_Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/bridge/Bridge_Other.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/i_iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/j_command/J_Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/command/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/k_prototype/Prototype.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/PrototypeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/k_prototype/Prototype_Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/Prototype_Sample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/p_proxy/F_Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/structure/proxy/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/s_strategy/S_Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/s_strategy/StrategyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/t_template/Template.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/template/TemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBase.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/abfactory/AbFactoryTest.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ThreadPoolDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zsy/java/thread/ThreadPoolDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="252">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grammar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Grammar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test01ConcurrentLinkedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Test01ConcurrentLinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConcurrentLinkedQueue.java" pinned="false" current-in-tab="true">
+        <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="309" column="7" lean-forward="true" selection-start-line="309" selection-start-column="7" selection-end-line="311" selection-end-column="46" />
+              <folding>
+                <element signature="e#15847#15848#0" expanded="true" />
+                <element signature="e#15885#15886#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountDownLatchTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/CountDownLatchTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountDownLatch.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/java/util/concurrent/CountDownLatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="532">
+              <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -73,35 +98,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>10</find>
-      <find>grow(</find>
-      <find>size</find>
-      <find>System.out</find>
-      <find>In</find>
-      <find>InputStreamReader</find>
-      <find>FilterInputStream</find>
-      <find>FileOutputStream</find>
-      <find>OutputStreamReader</find>
-      <find>OutputStreamWriter</find>
-      <find>BufferedReader</find>
-      <find>直接</find>
-      <find>DataInputStream</find>
-      <find>BufferedInputStream</find>
-      <find>wait()</find>
-      <find>new String</find>
-      <find>com.zsy.pattern.g_chain.test.</find>
-      <find>A_Singleton_Other</find>
-      <find>1.5</find>
-      <find>grow</find>
+      <find>共耗时</find>
     </findStrings>
-    <replaceStrings>
-      <replace>Out</replace>
-      <replace>&lt;直接&gt;</replace>
-      <replace>Singleton_Other</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>F:\Projects\JavaBase</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -109,73 +107,35 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/v_visiter/Visitor.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/u_mediator/Mediator.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/o_observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/a_singleton/Instance.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/a_singleton/Singleton.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Singleton_Other.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/Factory.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/AnimalFactory.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/b_builder/BuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/builder/BuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/builder/BuilderTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/k_prototype/Prototype.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/k_prototype/PrototypeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/prototype/PrototypeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/PrototypeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/template/Template.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/template/TemplateTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/template/TemplateTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/s_strategy/S_Strategy.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/s_strategy/StrategyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/strategy/StrategyPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/command/J_Command.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/command/CommandTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/chain/G_Chain.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/chain/Chain.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/chain/ChainTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/行为模式.txt" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/创建型模式.txt" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/structure/结构型模式.txt" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyPattern.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/command/CommandTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/state/StateTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/observer/Observer.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/observer/ObserverTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/Decorator.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/p_proxy/F_Proxy.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/p_proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/memento/MementoTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/visitor/VisitorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/interpreter/Interpreter.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/interpreter/InterpreterTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/behavior/mediator/MediatorTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/structure/proxy/ProxyTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/structure/composite/CompositeTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/structure/flyweight/FlyweightTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/collection/CollectionDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/create/abfactory/AbFactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/other/Grammar.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/other/CountDownLatchTest.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/other/Test01ConcurrentLinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Test01ConcurrentLinkedQueue.java" />
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-83" />
-    <option name="y" value="122" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1611" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,7 +167,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zsy" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
@@ -215,46 +175,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zsy" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zsy" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="create" type="462c0819:PsiDirectoryNode" />
-              <item name="abfactory" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566624611825" />
-    <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Projects\JavaBase\src\com\zsy\pattern\d_Decorator\sample" />
-      <recent name="F:\Projects\JavaBase\src\com\zsy\pattern\f_factory\sample" />
-      <recent name="F:\Projects\JavaBase\src\com\zsy\pattern\g_chain" />
-      <recent name="F:\Projects\JavaBase\src\com\zsy\java\io" />
-      <recent name="F:\Projects\JavaBase\src\com\zsy\java\io\sample" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Projects\JavaBase\files" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -268,79 +205,91 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FlyweightTest">
-    <configuration name="CommandTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.pattern.behavior.command.CommandTest" />
+  <component name="RunManager" selected="Application.Test01ConcurrentLinkedQueue">
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsy.java.other.linkqueue.CountDownLatchTest" />
       <module name="JavaBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsy.pattern.behavior.command.*" />
+          <option name="PATTERN" value="com.zsy.java.other.linkqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="CompositeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.pattern.structure.composite.CompositeTest" />
+    <configuration name="Grammar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsy.java.other.linkqueue.Grammar" />
       <module name="JavaBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsy.pattern.structure.composite.*" />
+          <option name="PATTERN" value="com.zsy.java.other.linkqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="FlyweightTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.pattern.structure.flyweight.FlyweightTest" />
+    <configuration name="Test01ConcurrentLinkedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsy.java.other.linkqueue.Test01ConcurrentLinkedQueue" />
       <module name="JavaBase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsy.pattern.structure.flyweight.*" />
+          <option name="PATTERN" value="com.zsy.java.other.linkqueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.pattern.behavior.observer.ObserverTest" />
-      <module name="JavaBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.pattern.behavior.observer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.pattern.structure.proxy.ProxyTest" />
-      <module name="JavaBase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.pattern.structure.proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Grammar" />
+      <item itemvalue="Application.Test01ConcurrentLinkedQueue" />
+      <item itemvalue="Application.CountDownLatchTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FlyweightTest" />
-        <item itemvalue="Application.CompositeTest" />
-        <item itemvalue="Application.ProxyTest" />
-        <item itemvalue="Application.CommandTest" />
-        <item itemvalue="Application.ObserverTest" />
+        <item itemvalue="Application.Test01ConcurrentLinkedQueue" />
+        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.Grammar" />
       </list>
     </recent_temporary>
   </component>
@@ -349,493 +298,134 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8c59171c-5e85-4dbe-8cf4-316fe52acd53" name="Default Changelist" comment="" />
-      <created>1565183141228</created>
+      <changelist id="8d430dfb-5829-443b-a6de-5957961c93f3" name="Default" comment="" />
+      <created>1569491228354</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565183141228</updated>
-      <workItem from="1565183144637" duration="3467000" />
-      <workItem from="1565393402563" duration="36859000" />
-      <workItem from="1565483661208" duration="16558000" />
-      <workItem from="1565532992737" duration="6251000" />
-      <workItem from="1565617775929" duration="2248000" />
-      <workItem from="1565701921567" duration="9918000" />
-      <workItem from="1565786721717" duration="4563000" />
-      <workItem from="1566258647310" duration="116000" />
-      <workItem from="1566390489352" duration="8653000" />
-      <workItem from="1566573488687" duration="8981000" />
-      <workItem from="1566609417672" duration="8288000" />
+      <updated>1569491228354</updated>
+      <workItem from="1569491232197" duration="716000" />
+      <workItem from="1569549417245" duration="62000" />
+      <workItem from="1569551667882" duration="1218000" />
+      <workItem from="1569734703880" duration="5282000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105902000" />
+    <option name="totallyTimeSpent" value="7278000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18937768" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.25620767" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4356659" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993576" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.42437923" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32869378" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32871974" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17128028" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26619828" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/io/IODemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2712">
-          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#printTest#0;class#IODemo#0" />
-            <element signature="method#fileReadWriterTest#0;class#IODemo#0" />
-            <element signature="method#copyFile#0;class#IODemo#0" />
-            <element signature="e#12344#12345#0" expanded="true" />
-            <element signature="e#12395#12396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="192">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/reflect/ReflectDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/eenum/EnumDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/a_singleton/person/Company.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/f_proxy/ibinder/IBank.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/g_chain/test/G_Chain2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/g_chain/sample/ProgramApe.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/bridge/Bridge_Other.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/base/BaseDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="44" column="34" selection-start-line="44" selection-start-column="34" selection-end-line="44" selection-end-column="34" />
-          <folding>
-            <element signature="e#1887#1888#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/Prototype_Sample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1478">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/IPhone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/PhoneA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/facad/Facade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/bridge/Bridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/factory/FactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/factory/AnimalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/参考.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Singleton_Other.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Instance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="33" lean-forward="true" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/builder/BuilderTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1660">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/template/TemplateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/chain/ChainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2020">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/创建型模式.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/行为模式.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/结构型模式.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/state/StateTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/Decorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/memento/MementoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="e#1295#1296#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/visitor/VisitorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1896">
-          <caret line="95" column="35" selection-start-line="95" selection-start-column="35" selection-end-line="95" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/interpreter/InterpreterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#355#363#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/iterator/Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="721">
-          <caret line="96" column="34" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/mediator/MediatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/observer/ObserverTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/command/CommandTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
-          <folding>
-            <element signature="class#PeopleBean#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/PrototypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/proxy/ProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/flyweight/FlyweightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#1028#1047#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/adapter/ClassAdapterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/structure/composite/CompositeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1302">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding>
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#723#724#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#881#892#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1040#1041#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="270" column="41" lean-forward="true" selection-start-line="270" selection-start-column="41" selection-end-line="270" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/map/MapDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="11" lean-forward="true" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/collection/CollectionDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="67" column="31" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/pattern/create/abfactory/AbFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/thread/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/thread/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/thread/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="75" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/thread/ThreadPoolDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="229" column="16" selection-start-line="229" selection-start-column="16" selection-end-line="229" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Grammar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Test01ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="309" column="7" lean-forward="true" selection-start-line="309" selection-start-column="7" selection-end-line="311" selection-end-column="46" />
+          <folding>
+            <element signature="e#15847#15848#0" expanded="true" />
+            <element signature="e#15885#15886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
