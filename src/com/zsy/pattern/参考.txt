@@ -2,5 +2,3 @@
      http://c.biancheng.net/design_pattern/
 地址 git@github.com:ZhaoShuyin/JavaBase.git
     git@gitee.com:zhaoshuyin/JavaBase.git
-
-    2019/8/13 这世界它要疼死我
