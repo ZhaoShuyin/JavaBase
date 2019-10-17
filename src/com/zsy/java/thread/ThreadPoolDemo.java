@@ -30,7 +30,7 @@ public class ThreadPoolDemo {
                 for (int i = 0; i < 10; i++) {
                     try {
                         Thread.sleep(1000);
-                        System.out.println("子线程 " + i);
+                        System.out.println("子线程 " + i +" : "+Thread.currentThread().getName());
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -41,7 +41,7 @@ public class ThreadPoolDemo {
             Thread.sleep(3000);
             System.out.println("主线程3秒后,停止子线程");
 //            executorService.shutdown();//停止接收新任务，原来的任务继续执行
-            executorService.shutdownNow();//停止接收新任务，原来的任务停止执行
+//            executorService.shutdownNow();//停止接收新任务，原来的任务停止执行
 //            executorService.awaitTermination();//当前线程阻塞
         } catch (Exception e) {
             e.printStackTrace();
