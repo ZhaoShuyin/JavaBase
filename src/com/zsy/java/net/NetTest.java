@@ -28,6 +28,8 @@ public class NetTest {
                 String path = "http://192.168.0.52:8083/Api/UploadFileInfo";
                 URL url = new URL(path);
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setConnectTimeout(100);
+                conn.setReadTimeout(100);
                 conn.setRequestMethod("POST");
                 conn.setRequestProperty("Charset", "UTF-8"); // 设置编码
                 conn.setRequestProperty("Content-Type", "multipart/form-data;boundary=" + BOUNDARY);

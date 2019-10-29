@@ -5,7 +5,7 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class Test01ConcurrentLinkedQueue {
+public class ConcurrentLinkedQueueTest {
     public static void main(String[] args) throws InterruptedException {
         int peopleNum = 10000;//吃饭人数
         int tableNum = 10;//饭桌数量
@@ -24,8 +24,9 @@ public class Test01ConcurrentLinkedQueue {
         for (int i = 0; i < tableNum; i++) {
             executorService.submit(new Dinner("00" + (i + 1), queue, countDownLatch));
         }
-        //计数器等待，知道队列为空（所有人吃完）
+        //计数器等待(暂时占据线程执行)，知道队列为空（所有人吃完）
         countDownLatch.await();
+
         long time = System.currentTimeMillis() - start;
         System.out.println("-----------------------------------所有人已经吃完-----------------------------------");
         System.out.println("共耗时：" + time);
