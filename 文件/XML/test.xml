@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnnotatedECG name="根目录" id="01">
+    <component>
+        <series>
+            <sequence>
+                <code
+                    code="MDC_ECG_LEAD_I"
+                    codeSystem="2.16.840.1.113883.5.4" />
+                <value xsi:type="GLIST_TS">
+                    <head value="20191030154528.000" />
+                    <increment
+                        unit="s"
+                        value="0.001" />
+                </value>
+            </sequence>
+            <sequence>
+                <code
+                    code="MDC_ECG_LEAD_II"
+                    codeSystem="2.16.840.1.113883.5.4" />
+                <value xsi:type="GLIST_TS">
+                    <head value="20191030154528.000" />
+                    <increment
+                        unit="s"
+                        value="0.001" />
+                    <digits>一二三四五六七八九十</digits>
+                </value>
+            </sequence>
+			  <sequence>
+                <code
+                    code="MDC_ECG_LEAD_III"
+                    codeSystem="2.16.840.1.113883.5.4" />
+                <value xsi:type="GLIST_TS">
+                    <head value="20191030154528.000" />
+                    <increment
+                        unit="s"
+                        value="0.001" />
+                    <digits>十九八七六五四三二一</digits>
+                </value>
+            </sequence>
+        </series>
+    </component>
+</AnnotatedECG>

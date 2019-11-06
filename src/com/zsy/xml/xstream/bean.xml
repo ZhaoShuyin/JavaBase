@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<china dn="day">
+    <city prov= "西安">
+        <name>陕西</name>
+        <age>18</age>
+        <year>2016</year>
+    </city>
+    <city prov= "郑州">
+        <name>河南</name>
+        <age>20</age>
+        <year>2016</year>
+    </city>
+    <city prov= "石家庄">
+        <name>河北</name>
+        <age>22</age>
+        <year>2016</year>
+    </city>
+    <city prov= "三亚">
+        <name>海南</name>
+        <age>88</age>
+        <year>2016</year>
+    </city>
+</china>

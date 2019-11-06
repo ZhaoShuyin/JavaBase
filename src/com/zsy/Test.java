@@ -28,8 +28,27 @@ public class Test {
         String a = "3";
         System.out.println("位置: "+abc.indexOf(a));;*/
 
-        System.out.println( Integer.toHexString('聴'));
-        System.out.println( Integer.toHexString('聸'));
+       /* System.out.println( Integer.toHexString('聴'));
+        System.out.println( Integer.toHexString('聸'));*/
+
+        /*System.out.println("90度 sin : "+Math.sin(Math.PI / 2));
+        System.out.println("90度 cos : "+(double)Math.cos(Math.PI / 2));*/
+
+        int count = 4;
+        // 顶点的个数，我们分割count个三角形，有count+1个点，再加上圆心共有count+2个点
+        float circleCoords[] = new float[(count + 1) * 2];
+        // x y
+        float r = 100;
+        circleCoords[0] = 0;// 中心点
+        circleCoords[1] = 0;
+        double angle = Math.PI * 2 / count;
+        for (int i = 0; i < count; i++) {
+            int x = 2 * i + 2;
+            int y = 2 * i + 3;
+            circleCoords[x] = (float) ((int)(r * Math.sin(angle * i)))/100 ;
+            circleCoords[y] = (float) ((int)(r * Math.cos(angle * i)))/100 ;
+            System.out.println("<x: " + circleCoords[x] + " > < y:" + circleCoords[y] + ">");
+        }
 
     }
 }
