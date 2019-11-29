@@ -20,8 +20,17 @@ public class PullTest {
 
     public static void main(String[] args) {
         try {
-            String pull = Pull(new File("D:/abc/test.xml"), "MDC_ECG_LEAD_III");
-            System.out.println("\n解析结果: \n" + pull);
+            String pull = Pull(new File("D:/abc/25mms.xml"), "MDC_ECG_LEAD_I");
+//            System.out.println("\n解析结果: \n" + pull);
+            String[] split = pull.split(" ");
+            System.out.println("5秒: 25mm/s 数据个数 :"+split.length);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        try {
+            String pull = Pull(new File("D:/abc/50mms.xml"), "MDC_ECG_LEAD_I");
+            String[] split = pull.split(" ");
+            System.out.println("5秒: 50mm/s 数据个数 :"+split.length);
         } catch (Exception e) {
             e.printStackTrace();
         }

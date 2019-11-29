@@ -1,37 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d430dfb-5829-443b-a6de-5957961c93f3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/libs/android-kxml2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/xpp3_min-1.1.4c.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/xstream-1.4.11.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/BufferTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/UploadTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/test/EcgBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/DOMTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/PullTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/SAXTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/parse/JaxbUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/parse/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/test/EcgBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/test/XmlUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/xstream/ChinaBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/xstream/EcgBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/xstream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/xstream/XmlBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/xml/xstream/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/文件/XML/test.xml" afterDir="false" />
+    <list default="true" id="643e745b-858d-4251-aab6-2ff5523dedc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/print/NetPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/print/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/test/XmlUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBase.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/zsy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/破解/JetbrainsCrack-4.2-release-enc.jar" beforeDir="false" afterPath="$PROJECT_DIR$/文件/注册/JetbrainsCrack-4.2-release-enc.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/破解/JetbrainsCrack.jar" beforeDir="false" afterPath="$PROJECT_DIR$/文件/注册/JetbrainsCrack.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/破解/JetbrainsIdesCrack-4.2-release-sha1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/文件/注册/JetbrainsIdesCrack-4.2-release-sha1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/破解/code" beforeDir="false" afterPath="$PROJECT_DIR$/文件/注册/code" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/test/EcgBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/test/EcgBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/xml/PullTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/xml/PullTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/文件/注册/code" beforeDir="false" afterPath="$PROJECT_DIR$/文件/注册/code" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,104 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="EcgBean.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zsy/test/EcgBean.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/zsy/print/NetPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="AnnotationType" />
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>共耗时</find>
-      <find>outputStream.write</find>
-      <find>BOUNDARY</find>
-      <find>write</find>
-      <find>newSingleThreadExecutor</find>
-      <find>System</find>
-      <find>parse</find>
-      <find>endDocument</find>
-      <find>valueOf</find>
-      <find>XmlPullParserException</find>
-      <find>attributes</find>
-      <find>sequence</find>
-      <find>Log.e(TAG,</find>
-      <find>))</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>ip.read</replace>
-      <replace>Exception</replace>
-      <replace>System.out.println(</replace>
-      <replace>.length)</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/Grammar.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/CountDownLatchTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/Test01ConcurrentLinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/Test01ConcurrentLinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/pattern/参考.txt" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/CyclicBarrierTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/TestB.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/CasesBean.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/NetTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/UploadTool6.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/properties/PropertiesDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/thread/ThreadPoolDemo.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/net/TestB.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/net/NetTest.java" />
-        <option value="$PROJECT_DIR$/破解/code" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/TestConcurrentLinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/ConcurrentLinkedQueueTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/BufferTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/java/UploadTool.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/UploadTool.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/XmlPullParser.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/Xml.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/SAXTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/DOMTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/PullTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/JaxbUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/parse/SerializedName.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/parse/Person.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xmlparse/AdvancedLure.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xmlparse/XmlTest.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xmlparse/ChinaBean.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/parse/JaxbUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/xstream/bean.xml" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/xstream/ChinaBean.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/xstream/Test.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/xstream/XmlBean.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/xstream/EcgBean.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/test/XmlUtil.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/xml/test/EcgBean.java" />
-        <option value="$PROJECT_DIR$/src/com/zsy/test/EcgBean.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -144,13 +46,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="189" />
-    <option name="width" value="1611" />
-    <option name="height" value="1005" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -158,33 +58,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="android-kxml2.jar" type="ab9368bb:PsiFileNode" />
-            </path>
-            <path>
-              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-              <item name="android-kxml2.jar" type="ab9368bb:PsiFileNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
@@ -204,39 +83,35 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zsy" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zsy" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zsy" type="462c0819:PsiDirectoryNode" />
+              <item name="print" type="462c0819:PsiDirectoryNode" />
+              <item name="NetPrinter.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Projects\JavaBase\文件\注册" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\JavaBase\src\com\zsy\test" />
-      <recent name="D:\Projects\JavaBase\src\com\zsy\xml\test" />
-      <recent name="D:\Projects\JavaBase\src\com\zsy\xml\xstream" />
-      <recent name="D:\Projects\JavaBase\libs" />
-      <recent name="D:\Projects\JavaBase\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zsy.java" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zsy.xml.parse" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,202 +125,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EcgBean">
-    <configuration name="EcgBean" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.test.EcgBean" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="JaxbUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.xml.parse.JaxbUtil" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.xml.parse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.xml.xstream.Test" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.xml.xstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="XmlTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.xmlparse.XmlTest" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.xmlparse.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="XmlUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.xml.test.XmlUtil" />
-      <module name="JavaBase" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zsy.xml.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <list>
-      <item itemvalue="Application.JaxbUtil" />
-      <item itemvalue="Application.XmlTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.XmlUtil" />
-      <item itemvalue="Application.EcgBean" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.EcgBean" />
-        <item itemvalue="Application.XmlUtil" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.JaxbUtil" />
-        <item itemvalue="Application.XmlTest" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d430dfb-5829-443b-a6de-5957961c93f3" name="Default" comment="" />
-      <created>1569491228354</created>
+      <changelist id="643e745b-858d-4251-aab6-2ff5523dedc8" name="Default Changelist" comment="" />
+      <created>1575013657828</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569491228354</updated>
-      <workItem from="1569491232197" duration="716000" />
-      <workItem from="1569549417245" duration="62000" />
-      <workItem from="1569551667882" duration="1218000" />
-      <workItem from="1569734703880" duration="7106000" />
-      <workItem from="1569810244734" duration="2943000" />
-      <workItem from="1570506920876" duration="646000" />
-      <workItem from="1570599994185" duration="610000" />
-      <workItem from="1570692485599" duration="628000" />
-      <workItem from="1571016537311" duration="3284000" />
-      <workItem from="1571105107933" duration="20129000" />
-      <workItem from="1571196304864" duration="1879000" />
-      <workItem from="1571274793312" duration="3972000" />
-      <workItem from="1571737886364" duration="604000" />
-      <workItem from="1571810647709" duration="1308000" />
-      <workItem from="1571888306858" duration="1436000" />
-      <workItem from="1571965255522" duration="868000" />
-      <workItem from="1571983353649" duration="799000" />
-      <workItem from="1572233303741" duration="774000" />
-      <workItem from="1572326627584" duration="1311000" />
-      <workItem from="1572343261060" duration="85000" />
-      <workItem from="1572405645316" duration="5210000" />
-      <workItem from="1572515912032" duration="160000" />
-      <workItem from="1572570963209" duration="17807000" />
-      <workItem from="1572830834449" duration="11104000" />
-      <workItem from="1573008076773" duration="3773000" />
+      <updated>1575013657828</updated>
+      <workItem from="1575013660573" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88432000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="671000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="260" y="20" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32881355" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.20508474" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.24121779" side_tool="true" weight="0.69004893" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.4420881" />
-      <window_info active="true" anchor="bottom" auto_hide="true" id="Run" order="2" sideWeight="0.7587822" visible="true" weight="0.29152542" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24306688" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24575587" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.17627119" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -454,317 +181,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/zsy/xml/DOMTest.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="7" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/文件/注册/code">
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/print/NetPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="304">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5256">
-          <caret line="345" column="12" selection-start-line="345" selection-start-column="12" selection-end-line="345" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/other/linkqueue/ConcurrentLinkedQueueTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="12" column="76" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="823">
-          <caret line="152" column="25" selection-start-line="152" selection-start-column="25" selection-end-line="152" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/BufferTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/net/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="8" lean-forward="true" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/net/NetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/UploadTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/javax/xml/parsers/DocumentBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/org/w3c/dom/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="177" column="39" selection-start-line="177" selection-start-column="39" selection-end-line="177" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/JAVA/jdk1.8.0_221/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1636">
-          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/Xml.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/XmlPullParser.java" />
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2-4.1.2_r1_rc-real.jar!/org/xmlpull/v1/XmlPullParserException.class" />
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2-4.1.2_r1_rc-real.jar!/org/xmlpull/v1/XmlSerializer.class" />
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2-4.1.2_r1_rc-real.jar!/org/kxml2/wap/syncml/SyncML.class" />
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2-4.1.2_r1_rc-real.jar!/org/xmlpull/v1/XmlPullParser.class" />
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2-4.1.2_r1_rc-real.jar!/org/xmlpull/v1/XmlPullParserFactory.class" />
-    <entry file="file://$PROJECT_DIR$/文件/XML/test.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2-4.1.2_r1_rc-real.jar!/org/kxml2/io/KXmlParser.class" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/DOMTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/PullTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/SAXTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/parse/SerializedName.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/AdvancedLure.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/ConfigurationScheme.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/Inventory2.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/LureExample.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/Lure.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/Inventory.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/xppdom/XppDom.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/ChinaBean.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/Dom4JReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/AbstractDocumentReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/AbstractDocumentWriter.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/AbstractPullReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/AbstractXmlDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/thoughtworks/xstream/io/xml/BEAStaxDriver.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xmlparse/XmlTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/parse/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/xstream/bean.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/xstream/ChinaBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/xstream/XmlBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/xstream/EcgBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/parse/JaxbUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/android-kxml2.jar!/org/xmlpull/v1/XmlPullParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="90" column="11" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/xstream/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/test/XmlUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-892">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/xml/test/EcgBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="39" selection-start-column="48" selection-end-line="50" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/test/EcgBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>JavaBase</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>files</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
