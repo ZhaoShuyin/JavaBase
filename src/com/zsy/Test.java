@@ -2,6 +2,7 @@ package com.zsy;
 
 import javafx.scene.input.DataFormat;
 
+import java.io.File;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Arrays;
@@ -84,9 +85,36 @@ public class Test {
 
        /* int i = 0x0100 | 0x4000;
         System.out.println(i+"");*/
-        System.out.println( Integer.toHexString('聸'));
+//        System.out.println( Integer.toHexString('聸'));
+
+
+        final long start = System.nanoTime();
+
+        File file = new File("C:/Users/pengyang/Desktop/apk");
+        final long total = getTotalSizeOfFilesInDir(file);
+        final long end = System.nanoTime();
+        System.out.println("Total Size: " + total);
+        System.out.println("Time taken: " + (end - start) / 1.0e9);
+
+        boolean delete = delFile(file, file.getName());
+        System.out.println("< " + file.getName() + "> 删除 : " + delete);
+
     }
 
+    public static boolean delFile(File file, String name) {
+        if (!file.exists()) {
+            return false;
+        }
+
+        if (file.isDirectory()) {
+            File[] files = file.listFiles();
+            for (File f : files) {
+                delFile(f, name);
+            }
+        }
+        return file.getName().equals(name) || file.delete();
+//        return file.delete();
+    }
 
     private static int[] conver(int[] origin, float scale) {
         if (scale == 1 || scale <= 0) {
@@ -104,4 +132,20 @@ public class Test {
             return shrink(origin, scale);
         }*/
     }
+
+
+    public static long getTotalSizeOfFilesInDir(final File file) {
+        if (file.isFile())
+            return file.length();
+        final File[] children = file.listFiles();
+        long total = 0;
+        if (children != null)
+            for (final File child : children)
+                total += getTotalSizeOfFilesInDir(child);
+        return total;
+    }
+
+
+
+
 }

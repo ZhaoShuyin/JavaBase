@@ -1,0 +1,21 @@
+使用openssl生成RSA公钥和私钥
+0.openssl开启
+
+1.genrsa -out private_key.pem 1024  生成<private_key.pem>文件
+
+2.pkcs8 -topk8 -inform PEM -in private_key.pem -outform PEM -nocrypt -out rsa_private_key.pem 私钥转换为pkcs8k格式
+
+3.rsa -in private_key.pem -pubout -out rsa_public_key.crt  生成<rsa_public_key>公钥文件
+
+
+OpenSSl编译(Windows)
+使用Perl和VS2017
+cd C:\Users\pengyang\Desktop\OpenSSL\openssl-1.1.1d
+
+perl Configure VC-WIN64A no-asm --prefix="C:\Users\pengyang\Desktop\OpenSSL\build"
+
+nmake
+
+nmake test
+
+nmake install
