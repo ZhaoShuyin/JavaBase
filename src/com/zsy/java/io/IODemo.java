@@ -55,7 +55,7 @@ public class IODemo {
         //fileStreamTest();      //文件输入输出流
         //copyFile();            //拷贝文件
         //bufferStreamTest();    //字节缓冲流
-        //readWriterTest();      //转转输入流
+        readWriterTest();      //转转输入流
         //fileReadWriterTest();  //字符流
         //bufferReadWriterTest();//字符缓冲流
         //dataStream();          //数据流

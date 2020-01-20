@@ -1,4 +1,4 @@
-package com.zsy;
+package com.zsy.xml;
 
 import java.io.*;
 import java.net.HttpURLConnection;

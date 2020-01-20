@@ -56,49 +56,8 @@ public class Test2 {
                 System.out.println(aa[i] + " / " + bb[j] + " = " + (a[i] + b[j]));
             }
         }*/
-        System.out.println("123"=="123");
-
-        String a = "abc";
-        String b = "abc";
-        System.out.println(a==b);
 
     }
 
 
-    static class A {
-       String name = "张三";
-       int age = 123;
-    }
-
-    /**
-     * 创建病例参数
-     */
-    public static String paramCreat(String hospital, String doctor,
-                                    String name, String sex, String age, String brithday,
-                                    String type, String department,
-                                    String outpaint, String inoapital, String ward, String bedin) {
-        String param = "{\"Token\":null,\"Command\":\"E00051\",\"Param\":{\"Type\":\"ADD \"," +
-                "\"hospital_Name\":\"" + hospital        // 医院名称
-                + "\"},\"RequestModel\":" +
-                "{\"NAME\":\"" + name + "\"," +               //姓名**********
-                "\"NAME_PHONETIC\":\"\"," +                //英文名
-                "\"SEX\":\"" + sex + "\"," +                   //性别***********
-                "\"HEIGHT\":\"\"," +                       //身高
-                "\"PATIENT_ID \":\"\"," +                  //病例号
-                "\"EXAM_AGE\":\"" + age + "\"," +              //年龄*********
-                "\"BIRTHDAY \":\"" + brithday + "\"," +        //生日*********
-                "\"WEIGHT \":\"\"," +                      //体重
-                "\"CROWD_TYPE \":\"\",\"CHARGE_TYPE \":\"\",\"NATIVE_PLACE\":\"\",\"ZIP_CODE \":\"\",\"INSURANCE_TYPE \":\"\",\"INSURANCE_CARD_NO \":\"\",\"CONTACT_TEL \":\"\",\"ID_NUMBER \":\"\",\"HOME_ADDRESS \":\"\",\"MAILING_ADDRESS \":\"\",\"EXAM_NO \":\"\",\"ACCESSIONNUMBER \":\"\"," +
-                "\"PATIENT_SOURCE \":\"" + type + "\","        //患者来源
-                + "\"EXAM_CLASS \":\"ECG \"," +            //检查类型 ECG
-                "\"REQ_DEPT_CODE \":\"" + department + "\"," + //申请科室**********
-                "\"OUTP_NO \":\"" + outpaint + "\"," +         //门诊号
-                "\"ITEM_NAME \":\"\",\"EXAM_SUB_CLASS \":\"\"," +
-                "\"REQ_DOCTOR_CODE \":\"" + doctor + "\"," +    //申请医生
-                "\"INP_NO\":\"" + inoapital + "\"," +           //住院号
-                "\"BED_NO\":\"" + bedin + "\"," +               //床号
-                "\"ROOM_NO\":\"" + ward + "\"," +               //病区
-                "\"EXAM_DEPT_NAME\":\"\",\"EXAM_ROOM\":\"\",\"CHARGES\":\"\",\"REQ_DATETIME\":\"\",\"CLIN_DIAG\":\"\",\"PHYS_SIGN\":\"\",\"CASE_HISTORY\":\"\",\"CREATE_USER_UID\":\"\",\"IMAGE_STATUS\":0,\"RIS_UPLOAD_STATUS\":0,\"PACS_UPLOAD_STATUS\":0,\"EXAM_STATUS\":\"0 \",\"PRINT_NUM\":\"0 \"}}";
-        return param;
-    }
 }

@@ -1,12 +1,12 @@
-package com.pengyang.ecg.net;
+package com.zsy.test;
 
-import android.content.Context;
-
-import com.pengyang.ecg.R;
-import com.pengyang.ecg.bean.CaseBean2;
-
-import org.json.JSONException;
-import org.json.JSONObject;
+//import android.content.Context;
+//
+//import com.pengyang.ecg.R;
+//import com.pengyang.ecg.bean.CaseBean2;
+//
+//import org.json.JSONException;
+//import org.json.JSONObject;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -20,6 +20,18 @@ import java.util.UUID;
  * @autor Zsy
  */
 public class UploadTool {
+
+    public static void main(String[] args) {
+        upload("http://39.98.68.80:3101/api/UploadFileForAndroid", "123456789", "结果分析",
+                new File("C:/Users/pengyang/Desktop/数据/1572917636197-1分钟/ECGL.xml"),
+                new UploadListener() {
+                    @Override
+                    public void callback(boolean respond, String msg) {
+
+                    }
+                });
+    }
+
 
     private static String succes = "上传成功";
     private static String fail = "上传失败";
@@ -76,7 +88,8 @@ public class UploadTool {
                     byteArrayOutputStream.write(bytes, 0, i);
                 }
                 String result = new String(byteArrayOutputStream.toByteArray());
-                try {
+                System.out.println("result==========\n  "+result);
+               /* try {
                     JSONObject jsonObject = new JSONObject(result);
                     int status = jsonObject.getInt("Status");
                     if (status == 1) {
@@ -87,7 +100,7 @@ public class UploadTool {
                 } catch (JSONException e) {
                     e.printStackTrace();
                     listener.callback(false, error);
-                }
+                }*/
             } else {
                 listener.callback(false, String.valueOf(responseCode));
             }
