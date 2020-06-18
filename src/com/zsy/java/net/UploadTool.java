@@ -25,7 +25,7 @@ public class UploadTool {
                 "2019-10-15",
                 "D:/abc/BECG.xml");
 
-        upload("http://192.168.0.52:8083/Api/UploadFileInfo", aCase, new UploadListener() {
+        upload("http://localhost:8080/WxServer/upload", aCase, new UploadListener() {
             @Override
             public void callback(boolean respond, String msg) {
                 System.out.println("respond: " + respond + "\nmsg: " + msg);
@@ -54,6 +54,7 @@ public class UploadTool {
             connection.setRequestProperty("Content-Type", "multipart/form-data;boundary=" + boundary);
             connection.setDoOutput(true);//以后就可以使用conn.getOutputStream().write()
             connection.setDoInput(true); //以后就可以使用conn.getInputStream().read();
+
             File file = new File(aCase.filePath);
             System.out.println("file "+file.length());
             fileInputStream = new FileInputStream(file);

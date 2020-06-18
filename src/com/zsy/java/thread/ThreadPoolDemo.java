@@ -1,5 +1,7 @@
 package com.zsy.java.thread;
 
+import java.util.Timer;
+import java.util.TimerTask;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -20,32 +22,71 @@ import java.util.concurrent.Executors;
  */
 public class ThreadPoolDemo {
 
+    static boolean running = false;
+
     public static void main(String[] args) {
 
         ExecutorService executorService = Executors.newSingleThreadExecutor();
 
+        running = true;
         executorService.submit(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 10; i++) {
-                    try {
-                        Thread.sleep(1000);
-                        System.out.println("子线程 " + i +" : "+Thread.currentThread().getName());
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
+                Timer timer = new Timer();
+                try {
+                    timer.schedule(new TimerTask() {
+                        @Override
+                        public void run() {
+                            if (!running) {
+                                cancel();
+                            }
+                            System.out.println("子线程 : " + Thread.currentThread().getName());
+                        }
+                    }, 1000, 1000);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    timer.cancel();
                 }
             }
         });
-        try {
-            Thread.sleep(3000);
-            System.out.println("主线程3秒后,停止子线程");
-//            executorService.shutdown();//停止接收新任务，原来的任务继续执行
-//            executorService.shutdownNow();//停止接收新任务，原来的任务停止执行
-//            executorService.awaitTermination();//当前线程阻塞
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(5000);
+                    System.out.println("主线程5秒后, shutdownNow");
+                    executorService.shutdown();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+      /*  new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(10000);
+                    running = false;
+                    System.out.println("主线程10秒后, running = false");
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();*/
+
+        Timer timer = new Timer();
+        timer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                executorService.submit(new TimerTask() {
+                    @Override
+                    public void run() {
+                        System.out.println("10秒后 再次使用线程池: " + Thread.currentThread().getName());
+                    }
+                });
+            }
+        }, 10000);
+
     }
 
 }

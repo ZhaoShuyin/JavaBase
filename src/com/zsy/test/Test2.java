@@ -57,6 +57,12 @@ public class Test2 {
             }
         }*/
 
+
+
+        File f =new File("Test.txt");
+        String fileName=f.getName();
+        String prefix=fileName.substring(fileName.lastIndexOf(".")+1);
+        System.out.println(prefix);
     }
 
 

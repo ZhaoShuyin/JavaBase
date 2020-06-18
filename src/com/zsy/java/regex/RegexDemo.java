@@ -29,7 +29,7 @@ public class RegexDemo {
 
     private static void custom(){
         String s = null;
-        String regex = "^[A-Za-z0-9]+$";//定义手机好规则
+        String regex = "^[A-Za-z0-9]+$";
 //        boolean flag = s.matches(regex);//判断功能
 //        System.out.println("flag:"+flag);
         System.out.println(Pattern.matches(regex,s));

@@ -27,7 +27,7 @@ public class UploadTool {
                 new UploadListener() {
                     @Override
                     public void callback(boolean respond, String msg) {
-
+                        System.out.println(respond + " " + msg);
                     }
                 });
     }
@@ -88,7 +88,7 @@ public class UploadTool {
                     byteArrayOutputStream.write(bytes, 0, i);
                 }
                 String result = new String(byteArrayOutputStream.toByteArray());
-                System.out.println("result==========\n  "+result);
+                System.out.println("result==========\n  " + result);
                /* try {
                     JSONObject jsonObject = new JSONObject(result);
                     int status = jsonObject.getInt("Status");
