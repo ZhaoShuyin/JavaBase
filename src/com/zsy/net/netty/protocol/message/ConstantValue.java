@@ -1,4 +1,4 @@
-package com.zsy.net.netty.protocol;
+package com.zsy.net.netty.protocol.message;
 
 /**
  * @author stone

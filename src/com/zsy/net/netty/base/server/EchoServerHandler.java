@@ -1,21 +1,17 @@
-package com.zsy.net.netty.server;
+package com.zsy.net.netty.base.server;
 
 
 //import org.ych.techDemo.netty.encoder.Header;
 //import org.ych.techDemo.netty.encoder.Message;
 
-import com.zsy.net.netty.bean.Header;
-import com.zsy.net.netty.bean.Message;
+import com.zsy.net.netty.base.bean.Header;
+import com.zsy.net.netty.base.bean.Message;
 
-import java.io.UnsupportedEncodingException;
 
- 
-import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandler.Sharable;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.CharsetUtil;
- 
+
 /**
  * Handler implementation for the echo server.
  * 

@@ -1,4 +1,7 @@
-package com.zsy.net.netty.protocol;
+package com.zsy.net.netty.protocol.client;
+
+import com.zsy.net.netty.protocol.message.LsDecoder;
+import com.zsy.net.netty.protocol.message.LsEncoder;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -10,10 +13,9 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
 
 /**
- * @author stone
- * @date 2019/7/30 9:45
+ * 客户端
  */
-public class Client {
+public class  Client {
 
     public void connect(int port, String host) throws Exception {
         // 配置客户端NIO线程组
@@ -35,7 +37,7 @@ public class Client {
     }
 
     public static void main(String[] args) throws Exception {
-        new Client().connect(9999, "127.0.0.1");
+        new Client().connect(8888, "127.0.0.1");
     }
 
 // 客户端加入的协议编码/解码器

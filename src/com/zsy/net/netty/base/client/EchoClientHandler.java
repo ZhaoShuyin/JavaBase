@@ -13,24 +13,18 @@
  * License for the specific language governing permissions and limitations
  * under the License.
  */
-package com.zsy.net.netty.client;
-
-import java.io.UnsupportedEncodingException;
-import java.nio.charset.Charset;
+package com.zsy.net.netty.base.client;
 
 //import org.ych.techDemo.netty.encoder.Header;
 //import org.ych.techDemo.netty.encoder.Message;
 
-import com.zsy.net.netty.bean.Header;
-import com.zsy.net.netty.bean.Message;
-import com.zsy.net.netty.bean.MessageDecoder;
-import com.zsy.net.netty.bean.MessageEncoder;
+import com.zsy.net.netty.base.bean.Header;
+import com.zsy.net.netty.base.bean.Message;
+import com.zsy.net.netty.base.bean.MessageDecoder;
+import com.zsy.net.netty.base.bean.MessageEncoder;
 
-import io.netty.buffer.ByteBuf;
-import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandlerContext;
+        import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
-import io.netty.util.CharsetUtil;
 
 /**
  * Handler implementation for the echo client.  It initiates the ping-pong

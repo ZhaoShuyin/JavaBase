@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetWorkList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Acondition" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetWorkListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetWorkListResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetSendState">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AorderList" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="AisSend" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetSendStateResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="SetSendStateResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="int" type="s:int" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetWorkListSoapIn">
+    <wsdl:part name="parameters" element="tns:GetWorkList" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkListSoapOut">
+    <wsdl:part name="parameters" element="tns:GetWorkListResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetSendStateSoapIn">
+    <wsdl:part name="parameters" element="tns:SetSendState" />
+  </wsdl:message>
+  <wsdl:message name="SetSendStateSoapOut">
+    <wsdl:part name="parameters" element="tns:SetSendStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkListHttpGetIn">
+    <wsdl:part name="Acondition" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkListHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSendStateHttpGetIn">
+    <wsdl:part name="AorderList" type="s:string" />
+    <wsdl:part name="AisSend" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSendStateHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkListHttpPostIn">
+    <wsdl:part name="Acondition" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetWorkListHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSendStateHttpPostIn">
+    <wsdl:part name="AorderList" type="s:string" />
+    <wsdl:part name="AisSend" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="SetSendStateHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:portType name="ECGAdaptorSoap">
+    <wsdl:operation name="GetWorkList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询心电数据</wsdl:documentation>
+      <wsdl:input message="tns:GetWorkListSoapIn" />
+      <wsdl:output message="tns:GetWorkListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">设置传送状态</wsdl:documentation>
+      <wsdl:input message="tns:SetSendStateSoapIn" />
+      <wsdl:output message="tns:SetSendStateSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ECGAdaptorHttpGet">
+    <wsdl:operation name="GetWorkList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询心电数据</wsdl:documentation>
+      <wsdl:input message="tns:GetWorkListHttpGetIn" />
+      <wsdl:output message="tns:GetWorkListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">设置传送状态</wsdl:documentation>
+      <wsdl:input message="tns:SetSendStateHttpGetIn" />
+      <wsdl:output message="tns:SetSendStateHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ECGAdaptorHttpPost">
+    <wsdl:operation name="GetWorkList">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">查询心电数据</wsdl:documentation>
+      <wsdl:input message="tns:GetWorkListHttpPostIn" />
+      <wsdl:output message="tns:GetWorkListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">设置传送状态</wsdl:documentation>
+      <wsdl:input message="tns:SetSendStateHttpPostIn" />
+      <wsdl:output message="tns:SetSendStateHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ECGAdaptorSoap" type="tns:ECGAdaptorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWorkList">
+      <soap:operation soapAction="http://tempuri.org/GetWorkList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <soap:operation soapAction="http://tempuri.org/SetSendState" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ECGAdaptorSoap12" type="tns:ECGAdaptorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetWorkList">
+      <soap12:operation soapAction="http://tempuri.org/GetWorkList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <soap12:operation soapAction="http://tempuri.org/SetSendState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ECGAdaptorHttpGet" type="tns:ECGAdaptorHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetWorkList">
+      <http:operation location="/GetWorkList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <http:operation location="/SetSendState" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ECGAdaptorHttpPost" type="tns:ECGAdaptorHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetWorkList">
+      <http:operation location="/GetWorkList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetSendState">
+      <http:operation location="/SetSendState" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ECGAdaptor">
+    <wsdl:port name="ECGAdaptorSoap" binding="tns:ECGAdaptorSoap">
+      <soap:address location="http://localhost/ECGAdaptor/ECGAdaptor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ECGAdaptorSoap12" binding="tns:ECGAdaptorSoap12">
+      <soap12:address location="http://localhost/ECGAdaptor/ECGAdaptor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ECGAdaptorHttpGet" binding="tns:ECGAdaptorHttpGet">
+      <http:address location="http://localhost/ECGAdaptor/ECGAdaptor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ECGAdaptorHttpPost" binding="tns:ECGAdaptorHttpPost">
+      <http:address location="http://localhost/ECGAdaptor/ECGAdaptor.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

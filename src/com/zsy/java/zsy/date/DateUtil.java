@@ -1,4 +1,4 @@
-package com.zsy.java.zsy;
+package com.zsy.java.zsy.date;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -7,9 +7,9 @@ import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.time.Month;
 import java.time.ZoneOffset;
 import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.time.temporal.TemporalAdjusters;
 import java.util.Calendar;
 import java.util.Date;
@@ -245,80 +245,14 @@ public class DateUtil {
         return LocalDateTime.now().toInstant(offset).toEpochMilli();
     }
 
-    public static void main(String[] args) {
-        /*long l = System.currentTimeMillis();
-        for (int i = 0; i < 1000; i++) {
-//            System.out.println(turnMs("2020-01-01 00:00:00"));
-//            System.out.println(turnMs("2020-01-01"));
-//            System.out.println(turnTextA(1577808000000l));//11ms
-//            System.out.println(turnTextB(1577808000000l));//24ms
-//            System.out.println(getTodayFristMsA());       //97ms
-//            System.out.println(getTodayFristMsB());       //55ms
-//            System.out.println(getTodayLastMsA());        //117ms
-//            System.out.println(getTodayLastMsB());        //42ms
-//            getDateA();                                   //15ms
-//            getDateB();                                   //31ms
-        }
-        System.out.println(System.currentTimeMillis() - l);*/
-
-//        long l = LocalDate.parse(turnCalendar("2020-01-03"), formatter_calendar).toEpochDay();
-//        long l1 = LocalDate.parse(turnCalendar("2020-01-01"), formatter_calendar).toEpochDay();
-//        System.out.println(l);
-//        System.out.println(l1);
-
-//        System.out.println(turnMsB("2020-01-01 01:00:00"));
-//        System.out.println(turnMsB("2020-01-02 01:00:00"));
-//        System.out.println(turnMsB("2020-01-03 01:00:00"));
-//        System.out.println(turnMsB("2020-01-04 01:00:00"));
-//        System.out.println(turnMsB("2020-01-05 01:00:00"));
-
-       /* for (int i = 0; i < 6; i++) {
-            LocalDate today = LocalDate.now().minusMonths(i);
-            //本月的第一天
-            LocalDate firstday = LocalDate.of(today.getYear(), today.getMonth(), 1);
-            //本月的最后一天
-            LocalDate lastDay = today.with(TemporalAdjusters.lastDayOfMonth());
-
-            System.out.println(firstday.getMonth().getValue() + "月");
-            System.out.println("最后一天：" + lastDay.getDayOfMonth());
-            System.out.println("-------------------");
-        }*/
-//        System.out.println(Arrays.toString(getMonths(2)));
-
-//        Calendar calendar = Calendar.getInstance();
-////        Calendar calendar1 = queryFormat.getCalendar();
-//        calendar.add(12, -1);
-//        Date time = calendar.getTime();
-//        String format = queryFormat.format(time);
-//        System.out.println(format);
-////        return df.format(calendar.getTime());
-
-
-//        System.out.println(turnText(1597754844051l));
-
-       /* long todayFristMs = getTodayFristMs();
-        System.out.println("todayFristMs " + todayFristMs);
-
-        System.out.println(turnText(1599313371000l)); //131538695341  1599215287000  202009041828
-
-        System.out.println(System.currentTimeMillis());
-
-        System.out.println(DateUtil.turnText(1599313371000l));*/
-
-        long millis = monthFistMilles();
-        System.out.println(millis);
-        System.out.println(turnText(millis));
-    }
-
-
 
     public static long monthFistMilles() {
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.MONTH, 0);
         calendar.set(Calendar.DAY_OF_MONTH, 1);
-        calendar.set(Calendar.HOUR_OF_DAY,0);
-        calendar.set(Calendar.MINUTE,0);
-        calendar.set(Calendar.SECOND,0);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
         return calendar.getTimeInMillis();
     }
 
@@ -340,7 +274,34 @@ public class DateUtil {
         return months;
     }
 
+    /**
+     * 获取两日期相差天数
+     */
+    public static int compareDate(String s1, String s2) {
+        try {
+            Date startDate = calenderFormat.parse(s1);
+            Date endDate = calenderFormat.parse(s2);
+            //得到相差的天数 betweenDate
+            long betweenDate = (startDate.getTime() - endDate.getTime()) / (60 * 60 * 24 * 1000);
+            return (int) betweenDate;
+        } catch (ParseException e) {
+            e.printStackTrace();
+            return 0;
+        }
+    }
 
+    public static void main(String[] args) {
+        System.out.println(compareDate("2020-02-01", "2020-01-02"));
+
+        LocalDate parse = LocalDate.parse("2020-01-01");
+
+
+        System.out.println(ChronoUnit.DAYS.between(LocalDate.parse("2020-01-01"),LocalDate.parse("2020-01-02")));
+
+        long days = ChronoUnit.DAYS.between(LocalDate.of(2020, 1, 1),LocalDate.now());
+//LocalDate.of(year, month, day);
+        System.out.println("The DaysNum is :"+days);
+    }
 
 
 }

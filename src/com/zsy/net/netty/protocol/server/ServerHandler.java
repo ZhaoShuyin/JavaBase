@@ -1,4 +1,6 @@
-package com.zsy.net.netty.protocol;
+package com.zsy.net.netty.protocol.server;
+
+import com.zsy.net.netty.protocol.message.Protocol;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;

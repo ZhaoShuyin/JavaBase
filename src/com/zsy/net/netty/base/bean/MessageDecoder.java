@@ -1,4 +1,4 @@
-package com.zsy.net.netty.bean;
+package com.zsy.net.netty.base.bean;
  
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
@@ -6,7 +6,7 @@ import io.netty.handler.codec.ByteToMessageDecoder;
 import io.netty.handler.codec.CorruptedFrameException;
  
 import java.util.List;
- 
+
 /**
  * HeaderDecoder.java
  * 

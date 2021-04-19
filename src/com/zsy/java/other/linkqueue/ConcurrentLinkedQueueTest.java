@@ -6,6 +6,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class ConcurrentLinkedQueueTest {
+
+
     public static void main(String[] args) throws InterruptedException {
         int peopleNum = 10000;//吃饭人数
         int tableNum = 10;//饭桌数量
@@ -37,12 +39,12 @@ public class ConcurrentLinkedQueueTest {
     private static class Dinner implements Runnable {
         private String name;
         private ConcurrentLinkedQueue<String> queue;
-        private CountDownLatch count;
+        private CountDownLatch countDownLatch;
 
         public Dinner(String name, ConcurrentLinkedQueue<String> queue, CountDownLatch count) {
             this.name = name;
             this.queue = queue;
-            this.count = count;
+            this.countDownLatch = count;
         }
 
         @Override
@@ -52,7 +54,7 @@ public class ConcurrentLinkedQueueTest {
                 //从队列取出一个元素 排队的人少一个
                 System.out.println("【" + queue.poll() + "】----已吃完...， 饭桌编号：" + name);
             }
-            count.countDown();//计数器-1
+            countDownLatch.countDown();//计数器-1
         }
     }
 }

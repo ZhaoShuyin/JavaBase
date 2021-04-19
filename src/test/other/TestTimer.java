@@ -1,9 +1,6 @@
 package test.other;
 
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Timer;
-import java.util.TimerTask;
 
 /**
  * @Title test

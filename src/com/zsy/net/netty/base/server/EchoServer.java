@@ -1,22 +1,18 @@
-package com.zsy.net.netty.server;
+package com.zsy.net.netty.base.server;
  
 //import org.ych.techDemo.netty.encoder.MessageDecoder;
 //import org.ych.techDemo.netty.encoder.MessageEncoder;
-import com.zsy.net.netty.bean.MessageDecoder;
-import com.zsy.net.netty.bean.MessageEncoder;
+import com.zsy.net.netty.base.bean.MessageDecoder;
+import com.zsy.net.netty.base.bean.MessageEncoder;
  
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;
-import io.netty.channel.ChannelOption;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
-import io.netty.handler.codec.LineBasedFrameDecoder;
-import io.netty.handler.logging.LogLevel;
-import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.ssl.SslContext;
 import io.netty.handler.ssl.SslContextBuilder;
 import io.netty.handler.ssl.util.SelfSignedCertificate;

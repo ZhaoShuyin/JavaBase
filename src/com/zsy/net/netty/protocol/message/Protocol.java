@@ -1,4 +1,6 @@
-package com.zsy.net.netty.protocol;
+package com.zsy.net.netty.protocol.message;
+
+import com.zsy.net.netty.protocol.message.ConstantValue;
 
 import java.io.UnsupportedEncodingException;
 
