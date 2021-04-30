@@ -9,14 +9,14 @@ import java.util.concurrent.Executors;
  * @autor Zsy
  */
 
-public class JniAndJnaTest {
+public class TestJniAndJna {
 
     public static void main(String[] args) {
-//        jniTest(10000);
-//        System.out.println("=============================================");
-//        jnaTest(10000);
-//        System.out.println("=============================================");
-
+        jniTest(10000);
+        System.out.println("=============================================");
+        jnaTest(10000);
+        System.out.println("=============================================");
+//
 //        treadTest();
     }
 
@@ -24,7 +24,7 @@ public class JniAndJnaTest {
         long c = System.currentTimeMillis();
         System.out.println("JNI 开始============");
         System.loadLibrary("src/com/zsy/jni/JNIDemo");
-        JNIDemo jniDemo = new JNIDemo();
+        JNIDemo jniDemo = new JNIDemo("1");
         for (int i = 0; i < count; i++) {
             int add = jniDemo.add(1000, i);
             if (add != (1000 + i)) {
