@@ -1,15 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="struct:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a9f34792-fcc9-4f56-b352-f9b29ee77a1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/jni/JniDll.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/zsy/jni/TestThreadJNI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/function.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/lib/dcm4che-core-5.22.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/lib/itext-asian-5.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/lib/slf4j-api-1.7.25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/lib/slf4j-simple-1.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/src/com/zsy/dicom/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/src/com/zsy/pdf/ImageA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function/src/com/zsy/pdf/PdfDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jni/jni.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/slf4j-nop-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/lib/Java-WebSocket-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/net.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/zsy/socket/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/zsy/socket/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/zsy/socket/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/zsy/socket/SocketClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/net/src/com/zsy/socket/SocketServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/pattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/decorator/sample/IPhone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/function/dicom/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/annotation/test/AnnonTestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/annotation/test/AnnonTestB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/annotation/test/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/annotation/test/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/zsy/java/annotation/test2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/lib/junit-4.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/lib/mina-core-1.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/lib/slf4j-api-1.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/lib/slf4j-log4j12-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/lib/slf4j-nop-1.4.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/lib/slf4j-nop-1.7.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/ImageCodecFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/ImageRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/ImageResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/ImageServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/ImageServerIoHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/Messages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/MinaStructPacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/StructDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/StructEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/mina/StructMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/photoshop/ACBHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/photoshop/AString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/photoshop/AdobeColorBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/photoshop/CMYKColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/photoshop/LabColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/photoshop/RGBColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/ArrayLengthMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/CString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/JavaStruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/LEDataInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/LEDataOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructFieldData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructPacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructUnpacker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/src/struct/StructUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/struct.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/LengthMarkers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/PerfTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/PrivatePrimitiveArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/PrivatePrimitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/PublicPrimitiveArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/PublicPrimitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/SimpleNested.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/TestLengthMarker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/TestPrimitiveArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/TestPrimitives.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/TestPrimitives2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/TestSimpleNestedStructs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/TimeTracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test/struct/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBase.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JniAndJnaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/jni/TestJniAndJna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/JNative.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jni/lib/JNative.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/jna-3.0.9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/jni/lib/jna-3.0.9.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/netty-all-4.1.51.Final.jar" beforeDir="false" afterPath="$PROJECT_DIR$/net/lib/netty-all-4.1.51.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/java/annotation/AnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/zsy/java/annotation/AnnotationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/Demo_dll_32.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/Demo_dll_32.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/Demo_dll_64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/Demo_dll_64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/JNIDemo.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/JNIDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JNativeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/JNativeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JnaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/JnaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/JniDll.dll" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/JniDll.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/TestJniAndJna.java" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/TestJniAndJna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/jni/TestThreadJNI.java" beforeDir="false" afterPath="$PROJECT_DIR$/jni/src/com/zsy/jni/TestThreadJNI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/HttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/HttpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/bean/Header.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/bean/Header.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/bean/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/bean/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/bean/MessageDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/bean/MessageDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/bean/MessageEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/bean/MessageEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/client/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/client/EchoClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/client/EchoClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/client/EchoClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/server/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/server/EchoServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/base/server/EchoServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/base/server/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/client/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/client/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/message/ConstantValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/message/ConstantValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/message/LsDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/message/LsDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/message/LsEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/message/LsEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/message/Protocol.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/message/Protocol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/server/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/server/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/netty/protocol/server/ServerHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/netty/protocol/server/ServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/WeatherClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/WeatherClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/WeatherServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/WeatherServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/client/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/client/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/client/QueryWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/client/QueryWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/client/QueryWeatherResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/client/QueryWeatherResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/client/WeatherInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/client/WeatherInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/client/WeatherInterfaceImplService.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/client/WeatherInterfaceImplService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/client/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/client/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/ArrayOfString.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/ArrayOfString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/GetDatabaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/GetDatabaseInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/GetDatabaseInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/GetDatabaseInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/GetMobileCodeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/GetMobileCodeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/GetMobileCodeInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/GetMobileCodeInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/MobileClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/MobileClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/MobileCodeWS.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/MobileCodeWS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/MobileCodeWSSoap.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/MobileCodeWSSoap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/demo/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/demo/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/service/WeatherInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/service/WeatherInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/service/WeatherInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/service/WeatherInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/ECGAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/ECGAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/ECGAdaptor.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/ECGAdaptor.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/ECGAdaptorHttpGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/ECGAdaptorHttpGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/ECGAdaptorHttpPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/ECGAdaptorHttpPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/ECGAdaptorSoap.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/ECGAdaptorSoap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/GetWorkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/GetWorkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/GetWorkListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/GetWorkListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/SetSendState.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/SetSendState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/SetSendStateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/SetSendStateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptor.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptor.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptor1.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptor1.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptor2.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptor2.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptorHttpGet.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptorHttpGet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptorHttpGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptorHttpGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptorHttpPost.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptorHttpPost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptorHttpPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptorHttpPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptorSoap.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptorSoap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ECGAdaptorSoap.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ECGAdaptorSoap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/GetWorkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/GetWorkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/GetWorkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/GetWorkList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/GetWorkListResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/GetWorkListResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/GetWorkListResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/GetWorkListResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/SetSendState.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/SetSendState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/SetSendState.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/SetSendState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/SetSendStateResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/SetSendStateResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/SetSendStateResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/SetSendStateResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test2/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test2/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/HelloWorld.wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/HelloWorld.wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/HelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/HelloWorldService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/SayHelloWorldFrom.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/SayHelloWorldFrom.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/SayHelloWorldFrom.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/SayHelloWorldFrom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/SayHelloWorldFromResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/SayHelloWorldFromResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/SayHelloWorldFromResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/SayHelloWorldFromResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test3/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test3/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/AAA.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/AAA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/AAA.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/AAA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/AAAResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/AAAResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/AAAResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/AAAResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/GetMobileCodeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/GetMobileCodeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/GetMobileCodeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/GetMobileCodeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/GetMobileCodeInfoResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/GetMobileCodeInfoResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/GetMobileCodeInfoResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/GetMobileCodeInfoResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/HelloWorld (2).wsdl" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/HelloWorld (2).wsdl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/HelloWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/HelloWorldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/HelloWorldService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/HelloWorldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/HelloWorldService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/package-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/package-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/net/webservice/test4/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/net/src/com/zsy/net/webservice/test4/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/chain/ChainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/chain/ChainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/command/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/command/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/interpreter/InterpreterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/interpreter/InterpreterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/iterator/Iterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/mediator/MediatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/mediator/MediatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/memento/MementoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/memento/MementoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/observer/ObserverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/state/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/state/StateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/strategy/StrategyPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/strategy/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/strategy/StrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/template/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/template/TemplateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/visitor/VisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/visitor/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/behavior/行为模式-11种.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/behavior/行为模式-11种.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/abfactory/AbFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/abfactory/AbFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/builder/BuilderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/builder/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/factory/AnimalFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/factory/sample/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/factory/sample/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/factory/sample/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/factory/sample/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/PrototypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/prototype/PrototypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/prototype/Prototype_Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/prototype/Prototype_Sample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Instance.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/singleton/Instance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/singleton/Singleton_Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/singleton/Singleton_Other.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/create/创建型模式-5种.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/创建型模式-5种.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/adapter/ClassAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/adapter/ClassAdapterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/bridge/Bridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/bridge/Bridge_Other.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/bridge/Bridge_Other.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/composite/CompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/composite/CompositeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/decorator/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/IPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/decorator/sample/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/decorator/sample/PhoneA.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/decorator/sample/PhoneA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/facad/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/facad/Facade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/flyweight/FlyweightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/flyweight/FlyweightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/proxy/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/proxy/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/structure/结构型模式-7种.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/com/zsy/pattern/structure/结构型模式-7种.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/zsy/pattern/参考.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pattern/src/参考.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,24 +263,126 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.java">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/PerfTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+            <state relative-caret-position="627">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/PrivatePrimitiveArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="16" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/SimpleNested.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/zsy/java/reflect/ReflectDemo.java">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/TestLengthMarker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="38" column="26" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="26" />
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/PublicPrimitives.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/TestPrimitiveArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="50" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/TestPrimitives.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/TestPrimitives2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/AllTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/struct/test/struct/LengthMarkers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>number</find>
+      <find>RetentionPolicy</find>
+      <find>declaringClass</find>
+      <find>relativeWidths</find>
+      <find>Para</find>
+      <find>PdfWriter</find>
+      <find> </find>
+      <find>fieldName</find>
+      <find>printf</find>
+      <find>0x003a, 0x021a</find>
+      <find>sampling</find>
+      <find>0x001</find>
+      <find>0x001A</find>
+      <find>TestCase</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>System.out.printf(</replace>
+      <replace>println</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,6 +391,35 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/function/dicom/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/net/struct/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/net/struct/AllTests.java" />
+        <option value="$PROJECT_DIR$/src/mina/MinaStructPacker.java" />
+        <option value="$PROJECT_DIR$/pattern/src/structure/decorator/sample/IPhone.java" />
+        <option value="$PROJECT_DIR$/pattern/src/com/zsy/pattern/create/factory/AnimalFactory.java" />
+        <option value="$PROJECT_DIR$/jni/src/com/zsy/jni/JNativeDemo.java" />
+        <option value="$PROJECT_DIR$/jni/src/com/zsy/jni/JNIDemo.java" />
+        <option value="$PROJECT_DIR$/jni/src/com/zsy/jni/JnaDemo.java" />
+        <option value="$PROJECT_DIR$/struct/src/Foo.java" />
+        <option value="$PROJECT_DIR$/net/src/com/zsy/socket/Server.java" />
+        <option value="$PROJECT_DIR$/net/src/com/zsy/socket/Client.java" />
+        <option value="$PROJECT_DIR$/net/src/com/zsy/socket/SocketClient.java" />
+        <option value="$PROJECT_DIR$/net/src/com/zsy/socket/ServerThread.java" />
+        <option value="$PROJECT_DIR$/net/src/com/zsy/socket/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/annotation/AnnotationDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/annotation/test/MyAnnotation.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/annotation/test/TestString.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/annotation/test/AnnonTestA.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/annotation/test/AnnonTestB.java" />
+        <option value="$PROJECT_DIR$/src/com/zsy/java/annotation/test2/Test.java" />
+        <option value="$PROJECT_DIR$/function/src/com/zsy/pdf/ImageB.java" />
+        <option value="$PROJECT_DIR$/function/src/com/zsy/pdf/ImageA.java" />
+        <option value="$PROJECT_DIR$/function/src/com/zsy/pdf/PdfDemo.java" />
+        <option value="$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java" />
+        <option value="$PROJECT_DIR$/function/src/com/zsy/dicom/Demo.java" />
+        <option value="$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomUtil.java" />
+        <option value="$PROJECT_DIR$/struct/test/Test.java" />
+        <option value="$PROJECT_DIR$/struct/src/Test.java" />
       </list>
     </option>
   </component>
@@ -56,9 +429,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1940" />
-    <option name="height" value="1100" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="356" />
+    <option name="y" value="22" />
+    <option name="width" value="1536" />
+    <option name="height" value="1018" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -67,8 +442,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -79,6 +454,11 @@
             <path>
               <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -100,16 +480,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="zsy" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zsy" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaBase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBase" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="struct" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -120,13 +509,28 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1619777045079" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web/TemServer" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1620986978324" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/struct" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\JavaBase\jni\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zsy.pdf" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Projects\JavaBase\src\com\zsy\jni" />
+      <recent name="D:\Projects\JavaBase\function\lib" />
+      <recent name="D:\Projects\JavaBase\function\src\com\zsy\dicom\util" />
+      <recent name="D:\Projects\JavaBase\net\lib" />
+      <recent name="D:\Projects\JavaBase\pattern\src" />
+      <recent name="D:\Projects\JavaBase\struct\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -141,13 +545,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="JNIDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zsy.jni.JNIDemo" />
-      <module name="JavaBase" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsy.dicom.Demo" />
+      <module name="function" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zsy.jni.*" />
+          <option name="PATTERN" value="com.zsy.dicom.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,9 +559,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Java2PDF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zsy.pdf.Java2PDF" />
+      <module name="function" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zsy.pdf.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="struct" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPrimitiveArrays.testPublicPrimitiveArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="struct" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="struct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="struct" />
+      <option name="MAIN_CLASS_NAME" value="struct.TestPrimitiveArrays" />
+      <option name="METHOD_NAME" value="testPublicPrimitiveArrays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testArrays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="struct" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="METHOD_NAME" value="testArrays" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Java2PDF" />
+      <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.TestPrimitiveArrays.testPublicPrimitiveArrays" />
+      <item itemvalue="JUnit.Test.testArrays" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JNIDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.Test.testArrays" />
+        <item itemvalue="JUnit.TestPrimitiveArrays.testPublicPrimitiveArrays" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Java2PDF" />
       </list>
     </recent_temporary>
   </component>
@@ -174,17 +635,47 @@
       <workItem from="1618980030143" duration="1453000" />
       <workItem from="1618984541602" duration="2545000" />
       <workItem from="1618994386344" duration="5143000" />
-      <workItem from="1619773009415" duration="747000" />
+      <workItem from="1619773009415" duration="799000" />
+      <workItem from="1620269282382" duration="2650000" />
+      <workItem from="1620349804960" duration="12128000" />
+      <workItem from="1620435676284" duration="9490000" />
+      <workItem from="1620608913092" duration="1980000" />
+      <workItem from="1620716235207" duration="3105000" />
+      <workItem from="1620891710898" duration="1807000" />
+      <workItem from="1620903700964" duration="2185000" />
+      <workItem from="1620961753302" duration="28000" />
+      <workItem from="1620978867545" duration="1751000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AllTests_(2) - 2021.05.07 at 10h 04m 30s.xml">
+      <configuration name="AllTests (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AllTests - 2021.05.07 at 10h 35m 37s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrimitiveArrays_testPublicPrimitiveArrays - 2021.05.13 at 19h 09m 55s.xml">
+      <configuration name="TestPrimitiveArrays.testPublicPrimitiveArrays" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestPrimitiveArrays_testPublicPrimitiveArrays - 2021.05.13 at 19h 10m 05s.xml">
+      <configuration name="TestPrimitiveArrays.testPublicPrimitiveArrays" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testArrays - 2021.05.13 at 19h 13m 52s.xml">
+      <configuration name="Test.testArrays" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_testArrays - 2021.05.13 at 19h 14m 13s.xml">
+      <configuration name="Test.testArrays" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9888000" />
+    <option name="totallyTimeSpent" value="45064000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -193,17 +684,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29934925" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24156693" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.46681175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32896304" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.27203482" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -221,20 +712,521 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>107</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java</url>
+          <line>109</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomUtil.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomUtil.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomUtil.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/jni/JNIDemo.java">
+    <entry file="file://$PROJECT_DIR$/files/unzip/random.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/test/TestString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        <state relative-caret-position="133">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/reflect/ReflectDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/test/AnnonTestA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/test/MyAnnotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/test/AnnonTestB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/test2/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_221/src.zip!/java/lang/StackTraceElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_221/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="214" column="52" lean-forward="true" selection-start-line="214" selection-start-column="52" selection-end-line="214" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_221/src.zip!/java/io/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfPTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/Rectangle.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="202" column="39" lean-forward="true" selection-start-line="202" selection-start-column="39" selection-end-line="202" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/BaseColor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_221/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/Paragraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/pdf/ImageB.java" />
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/Document.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/PdfWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1468">
+          <caret line="228" column="14" selection-start-line="228" selection-start-column="14" selection-end-line="228" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/AnnotationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/AnnUse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/itextpdf-5.5.13.jar!/com/itextpdf/text/pdf/AcroFields.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="1546" column="42" selection-start-line="1546" selection-start-column="42" selection-end-line="1546" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/pdf/ImageA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="161" column="13" selection-start-line="161" selection-start-column="8" selection-end-line="161" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/java/annotation/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/itextpdf-5.5.13-sources.jar!/com/itextpdf/text/pdf/AcroFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31084">
+          <caret line="1699" column="29" selection-start-line="1699" selection-start-column="16" selection-end-line="1699" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/pdf/PdfDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/itextpdf-5.5.13-sources.jar!/com/itextpdf/text/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5605">
+          <caret line="372" column="48" selection-start-line="372" selection-start-column="48" selection-end-line="372" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/pdf/Java2PDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1862">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/zsy/gui/HelloWorldSwing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ideaLibSources/itextpdf-5.5.13-sources.jar!/com/itextpdf/text/pdf/PdfPTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3154">
+          <caret line="228" column="47" selection-start-line="228" selection-start-column="33" selection-end-line="228" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/dicom/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="931">
+          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/function/lib/dcm4che-core-5.22.1.jar!/org/dcm4che3/data/StringValueType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6232">
+          <caret line="371" column="50" selection-start-line="371" selection-start-column="50" selection-end-line="371" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/function/src/com/zsy/dicom/util/DicomUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="120" column="29" selection-start-line="120" selection-start-column="29" selection-end-line="120" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/src/struct/StructException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/src/struct/StructFieldData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/src/struct/JavaStruct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/src/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/src/struct/StructUnpacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="118" column="21" selection-start-line="118" selection-start-column="21" selection-end-line="118" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/src/struct/StructUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/PublicPrimitiveArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/LengthMarkers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/PerfTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/PrivatePrimitiveArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/TestPrimitiveArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="26" />
+          <caret line="4" column="50" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="50" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/TestPrimitives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/TestPrimitives2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/SimpleNested.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/PublicPrimitives.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/struct/test/struct/TestLengthMarker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>struct:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaBase</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>files</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

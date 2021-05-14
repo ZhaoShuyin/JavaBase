@@ -14,4 +14,8 @@ public class AnnotationDemo {
         boolean present = annUse.getClass().isAnnotationPresent(Table.class);
         System.out.println("注解: "+present);
     }
+
+    private static void mothed(){
+
+    }
 }
