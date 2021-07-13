@@ -73,7 +73,6 @@ public class PdfDemo {
             document.open();
             document.add(new Paragraph("段落文字显示",titlefont));
 
-
             Image image = Image.getInstance("D:/abc/pdf/zzxt_pdf/Image.png");
             image.scaleAbsolute(500,500);
             image.setAbsolutePosition(10, 20);      // （以左下角为原点）设置图片的坐标

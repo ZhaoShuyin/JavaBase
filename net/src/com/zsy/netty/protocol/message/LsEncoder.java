@@ -13,6 +13,8 @@ import io.netty.handler.codec.MessageToByteEncoder;
 public class LsEncoder extends MessageToByteEncoder<Protocol> {
     @Override
     public void encode(ChannelHandlerContext ctx, Protocol msg, ByteBuf out) throws Exception {
+        System.out.println("编码转字节....................");
+        out.writeInt(1);
         out.writeInt(msg.getHeader());
         out.writeInt(msg.getContentLength());
         out.writeBytes(msg.getContent());

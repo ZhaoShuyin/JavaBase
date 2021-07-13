@@ -10,7 +10,7 @@ public class Protocol {
     /**
      * 消息头标志
      */
-    private int header = ConstantValue.HEAD_DATA;
+    private int header = 0X76;
 
     /**
      * 消息长度

@@ -21,6 +21,7 @@ public class LsDecoder extends ByteToMessageDecoder {
 
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) throws Exception {
+        System.out.println("解码转对象.................");
         // 可读长度必须大于基本长度
         if (in.readableBytes() >= BASE_LENGTH) {
             // 防止socket字节流攻击
@@ -34,10 +35,13 @@ public class LsDecoder extends ByteToMessageDecoder {
             while (true) {
                 // 获取包头开始的index
                 beginReader = in.readerIndex();
+                System.out.println("beginReader: "+beginReader);
                 // 标记包头开始的index
                 in.markReaderIndex();
                 // 读到协议的开始标志，结束while循环
-                if (in.readInt() == ConstantValue.HEAD_DATA) {
+                int readInt = in.readInt();
+                System.out.println("readInt: "+readInt);
+                if (readInt == 0X76) {
                     break;
                 }
 
@@ -45,9 +49,11 @@ public class LsDecoder extends ByteToMessageDecoder {
                 // 每次跳过一个字节后，再去读取包头信息的开始标记
                 in.resetReaderIndex();
                 in.readByte();
+                System.out.println("readByte() 跳一个byte ");
 
                 // 当跳过一个字节后，数据包的长度又变的不满足，此时应该结束，等待后边数据流的到达
                 if (in.readableBytes() < BASE_LENGTH) {
+                    System.out.println("数据不足等待后续数据: "+in.readableBytes());
                     return;
                 }
             }

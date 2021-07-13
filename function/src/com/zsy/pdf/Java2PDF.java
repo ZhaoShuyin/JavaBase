@@ -53,19 +53,19 @@ public class Java2PDF {
                 dirFile.mkdir();
             }
             file.createNewFile();
-            PdfWriter.getInstance(document, new FileOutputStream(file));
+            PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream(file));
 
             // 3.打开文档
             document.open();
             // 段落
             Paragraph paragraph = new Paragraph("运维单", titlefont);
-            paragraph.setAlignment(1); // 设置文字居中 0靠左 1，居中 2，靠右
-            paragraph.setIndentationLeft(12); // 设置左缩进
+            paragraph.setAlignment(1);         // 设置文字居中 0靠左 1，居中 2，靠右
+            paragraph.setIndentationLeft(12);  // 设置左缩进
             paragraph.setIndentationRight(12); // 设置右缩进
-            paragraph.setFirstLineIndent(24); // 设置首行缩进
-            paragraph.setLeading(20f); // 行间距
-            paragraph.setSpacingBefore(5f); // 设置段落上空白
-            paragraph.setSpacingAfter(10f); // 设置段落下空白
+            paragraph.setFirstLineIndent(24);  // 设置首行缩进
+            paragraph.setLeading(20f);         // 行间距
+            paragraph.setSpacingBefore(5f);    // 设置段落上空白
+            paragraph.setSpacingAfter(10f);    // 设置段落下空白
             // 表格
             PdfPTable table = new PdfPTable(new float[]{100, 90, 90});
             table.addCell(createCell("设备名称：", keyfont, Element.ALIGN_LEFT));

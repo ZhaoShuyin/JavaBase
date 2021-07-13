@@ -20,7 +20,7 @@ public class TestJniAndJna {
     private static void jniTest(int count) {
         long c = System.currentTimeMillis();
         System.out.println("JNI 开始============");
-        System.loadLibrary("src/com/zsy/jni/JNIDemo");
+        System.loadLibrary("/jni/src/com/zsy/jni/JNIDemo");
         JNIDemo jniDemo = new JNIDemo("1");
         for (int i = 0; i < count; i++) {
             int add = jniDemo.add(1000, i);

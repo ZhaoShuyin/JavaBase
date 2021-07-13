@@ -22,7 +22,7 @@ public class TestThreadJNI {
         Thread thread = new Thread(new Runnable() {
             @Override
             public void run() {
-                System.loadLibrary("src/com/zsy/jni/JNIDemo");
+                System.loadLibrary("jni/src/com/zsy/jni/JNIDemo");
                 JNIDemo jniDemo = new JNIDemo(name);
                 new Timer().schedule(new TimerTask() {
                     @Override
