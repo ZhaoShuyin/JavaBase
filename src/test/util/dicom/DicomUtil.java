@@ -1,4 +1,4 @@
-package test.util.test;
+package test.util.dicom;
 
 import org.dcm4che3.data.Attributes;
 import org.dcm4che3.data.Sequence;

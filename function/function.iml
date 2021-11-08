@@ -11,5 +11,6 @@
     <orderEntry type="library" name="itext-asian-5.2.0" level="project" />
     <orderEntry type="library" name="dcm4che-core-5.22.1" level="project" />
     <orderEntry type="library" name="slf4j-api-1.7.25" level="project" />
+    <orderEntry type="library" name="gson-2.6.2" level="project" />
   </component>
 </module>

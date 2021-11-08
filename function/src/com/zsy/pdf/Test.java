@@ -33,9 +33,9 @@ public class Test {
                 "49 ms", "389 ms",
                 "75 ms", "64",
                 "115ms", "1.94mV");
-        info.conclusion = "这是检查结论";
+        info.conclusion = "这是检查结论\n\n这是检查结论\n\n这是检查结论\n\n这是检查结论\n\n这是检查结论\n\n这是检查结论\n\n这是检查结论\n\n";
         File file = new File("D:/abc/pdf/报告模板/" + System.currentTimeMillis() + ".pdf");
-        boolean b = PDFUtil.create(info, false, file);
+        boolean b = PDFUtil.create(info, true, file);
         System.out.println("创建 " + file.getName());
     }
 }

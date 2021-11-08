@@ -11,5 +11,6 @@
     <orderEntry type="library" name="libs" level="project" />
     <orderEntry type="library" name="junit-4.9" level="project" />
     <orderEntry type="library" name="slf4j-nop-1.7.30" level="project" />
+    <orderEntry type="library" name="base(1)_classes_dex2jar" level="project" />
   </component>
 </module>

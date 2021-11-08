@@ -19,6 +19,7 @@ public class Test3 {
             }
         }
     }
+
     public static void selectSort(int a[]) {
         int temp = 0;
         int len = a.length;
@@ -36,6 +37,7 @@ public class Test3 {
             a[index] = temp;
         }
     }
+
     public static void insertSort(int a[]) {
         int len = a.length;
         for (int i = 1; i < len; i++) {
@@ -48,6 +50,7 @@ public class Test3 {
             a[index] = temp;
         }
     }
+
     public static int partition(int a[], int low, int height) {
         int key = a[low];
         while (low < height) {

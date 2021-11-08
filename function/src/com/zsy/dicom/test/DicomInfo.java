@@ -14,12 +14,12 @@ public class DicomInfo {
     /**
      * 导联名称
      */
-    public String[] leads = new String[]{"I", "II", "III", "avR", "avL", "avF", "V1", "V2", "V3", "V4", "V5", "V6", "V7", "V8", "V9", "V3R", "V4R", "V5R"};
+    public String[] leads = new String[]{"I", "II", "III", "avR", "avL", "avF", "V1", "V2", "V3", "V4", "V5", "V6", "V7", "V1", "V9", "V3R", "V4R", "V5R"};
 
     /**
      * 每个导联增益
      */
-    public float[] leadsGain = new float[]{8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8};
+    public float[] leadsGain = new float[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     /**
      * 每个导联
      */
@@ -60,4 +60,9 @@ public class DicomInfo {
         return format;
     }
 
+
+    @Override
+    public String toString() {
+        return "{leadsNumber:" + leadsNumber + ",dataLength:" + dataLength + ",sampling:"+sampling+",\nleads:"+Arrays.toString(leads)+",\nleadsGain:"+Arrays.toString(leadsGain)+"}";
+    }
 }

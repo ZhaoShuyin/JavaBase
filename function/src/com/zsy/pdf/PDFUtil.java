@@ -113,6 +113,7 @@ public class PDFUtil {
             Paragraph phrase = new Paragraph(pdfInfo.conclusion, font9_b);
             phrase.setPaddingTop(10);
             PdfPCell consultion = new PdfPCell(phrase);
+            consultion.setFixedHeight(70);
             consultion.setVerticalAlignment(Element.ALIGN_TOP);
             consultion.disableBorderSide(Rectangle.LEFT);
             table.addCell(consultion);
